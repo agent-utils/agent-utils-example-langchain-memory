@@ -16,7 +16,7 @@ The first call auto-provisions a free trial (no card).
 
 `put_memory` / `get_memory` as a durable store you can plug into a LangChain memory class.
 The same token also unlocks locks, idempotency, and unit conversion -
-[agent-utils hub](https://codeberg.org/agent-utils/agent-utils).
+[agent-utils hub](https://github.com/agent-utils/agent-utils).
 
 ## License
 
