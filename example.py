@@ -1,14 +1,14 @@
-"""Back an agent's long-term memory with the hosted agent_utils Memory service.
+"""Back an agent's long-term memory with the hosted agent_utils Swarm server.
 
 Run:  AGENT_UTILS_TOKEN=sk_... python example.py
-Uses the agent-utils-memory client (pip install agent-utils-memory).
+Uses the agent-utils-swarm client (pip install agent-utils-swarm).
 """
 
 import os
 import json
-from agent_utils.memory import AgentUtilsMemory
+from agent_utils.swarm import AgentUtilsSwarm
 
-memory = AgentUtilsMemory(token=os.environ["AGENT_UTILS_TOKEN"])
+memory = AgentUtilsSwarm(token=os.environ["AGENT_UTILS_TOKEN"])
 
 # Persist a fact learned this session; recall it in any future session.
 memory.put_memory("user", "prefers", json.dumps("concise answers"), tags=["preference"])
