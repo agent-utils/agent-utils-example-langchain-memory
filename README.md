@@ -18,6 +18,10 @@ The first call auto-provisions a free trial (no card).
 The same server also has locks, a task board and pub/sub, and the same token works on the extensions server -
 [agent-utils hub](https://github.com/agent-utils/agent-utils).
 
+## Contact
+
+Questions, bugs or account issues: support@agent-utils.ai
+
 ## License
 
 MIT. agent_utils is a hosted commercial service; this example is not the service.
